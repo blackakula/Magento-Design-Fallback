@@ -1,0 +1,6 @@
+#
+# SKyrychenko_Design modman file
+#
+
+src                       app/code/community/SKyrychenko/Design
+SKyrychenko_Design.xml    app/etc/modules/SKyrychenko_Design.xml

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <design>
+            <groups>
+                <theme>
+                    <fields>
+                        <default>
+                            <show_in_default>0</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </default>
+                        <default_ua_regexp>
+                            <show_in_default>0</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </default_ua_regexp>
+                        <fallback translate="label" module="skyrychenko_design">
+                            <label>Fallback</label>
+                            <frontend_model>skyrychenko_design/adminhtml_system_config_form_field_fallback</frontend_model>
+                            <backend_model>adminhtml/system_config_backend_serialized_array</backend_model>
+                            <sort_order>65</sort_order>
+                            <show_in_default>1</show_in_default>
+                        </fallback>
+                    </fields>
+                </theme>
+            </groups>
+        </design>
+    </sections>
+</config>
